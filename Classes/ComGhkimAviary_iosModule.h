@@ -11,6 +11,8 @@
 {
     AFPhotoEditorController *editorController;
     AFPhotoEditorStyle *style;
+    KrollCallback *successCallback;
+    KrollCallback *cancelCallback;
 }
 
 @end

@@ -85,7 +85,7 @@
 
 -(NSDictionary *)convertResultDic:(UIImage *)result
 {
-    TiBlob *blob = [[[TiBlob alloc]initWithImage:result]autorelease];
+    TiBlob *blob = [[[TiBlob alloc] initWithImage:result] autorelease];
     NSDictionary *obj = [NSDictionary dictionaryWithObjectsAndKeys:blob,@"image",nil];
     return obj;
 }
@@ -172,10 +172,19 @@
 }
 
 // Public method to editcontroller modal.
--(void)displayEditor:(id)params
+-(void)displayEditor:(id)args
 {
     if (editorController){
-        ENSURE_UI_THREAD(modalEditorController, nil);
+        ENSURE_UI_THREAD_1_ARG(args);
+        ENSURE_SINGLE_ARG(args, NSDictionary);
+        id success = [args objectForKey:@"success"];
+        id cancel = [args objectForKey:@"cancel"];
+        RELEASE_TO_NIL(successCallback);
+        RELEASE_TO_NIL(cancelCallback);
+        successCallback = [success retain];
+        cancelCallback = [cancel retain];
+        
+        [[TiApp app] showModalController: editorController animated: YES];
     }
 }
 
@@ -231,18 +240,26 @@
 #pragma mark Delegates
 
 // This is called when editcontroller done. 
-// Post edited image by notification.
+// Post edited image by notification.¬
 -(void)photoEditor:(AFPhotoEditorController *)editor finishedWithImage:(UIImage *)image
 {
-    [self fireEvent:@"avEditorFinished" withObject:[self convertResultDic:image]];
-    [editor dismissModalViewControllerAnimated:YES];    
+    if(successCallback)
+    {
+        [self _fireEventToListener:@"success" withObject:[self convertResultDic:image] listener:successCallback thisObject:nil];
+    }
+    NSLog(@"[INFO] %@ Editor finished with image.",self);
+    [editor dismissViewControllerAnimated:true completion:nil];
 }
 
 // This is called when editcontroller cancel.
 -(void)photoEditorCanceled:(AFPhotoEditorController *)editor
 {
-    [self fireEvent:@"avEditorCancel" withObject:nil];
-    [editor dismissModalViewControllerAnimated:YES];
+    if(cancelCallback)
+    {
+        [self _fireEventToListener:@"cancel" withObject:nil listener:cancelCallback thisObject:nil];
+    }
+    NSLog(@"[INFO] %@ Editor canceled.",self);
+    [editor dismissViewControllerAnimated:true completion:nil];
 }
 
 
