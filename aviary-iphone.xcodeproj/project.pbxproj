@@ -26,6 +26,7 @@
 		24DD6CFA1134B3F500162E58 /* ComGhkimAviary_iosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComGhkimAviary_iosModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m */; };
+		467C10A1165E5515008E94D0 /* AFPhotoEditorCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = 467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */; };
 		46C44EB4165D178200C097FC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB3165D178200C097FC /* CoreText.framework */; };
 		46C44EB7165D17C400C097FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB6165D17C400C097FC /* Accelerate.framework */; };
 		46C44EB9165D17C900C097FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB8165D17C900C097FC /* CoreData.framework */; };
@@ -63,6 +64,7 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGhkimAviary_iosModuleAssets.h; path = Classes/ComGhkimAviary_iosModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGhkimAviary_iosModuleAssets.m; path = Classes/ComGhkimAviary_iosModuleAssets.m; sourceTree = "<group>"; };
+		467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
 		46C44EB3165D178200C097FC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		46C44EB6165D17C400C097FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		46C44EB8165D17C900C097FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -170,6 +172,7 @@
 		86FA6F7A15A7D34400D19ABB /* AviarySDK */ = {
 			isa = PBXGroup;
 			children = (
+				467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */,
 				86FA6F7B15A7D36600D19ABB /* AFPhotoEditorContext.h */,
 				86FA6F7C15A7D36600D19ABB /* AFPhotoEditorController.h */,
 				86FA6F7D15A7D36600D19ABB /* AFPhotoEditorControllerOptions.h */,
@@ -195,6 +198,7 @@
 				86FA6F8215A7D36600D19ABB /* AFPhotoEditorControllerOptions.h in Headers */,
 				86FA6F8315A7D36600D19ABB /* AFPhotoEditorSession.h in Headers */,
 				86FA6F8415A7D36600D19ABB /* AFPhotoEditorStyle.h in Headers */,
+				467C10A1165E5515008E94D0 /* AFPhotoEditorCustomization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

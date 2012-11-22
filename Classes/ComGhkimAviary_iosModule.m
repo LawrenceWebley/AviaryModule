@@ -114,6 +114,11 @@
 -(void)newEditorController:(UIImage *)source withTools:(NSArray *)toolKey setDelegate:(id)param
 {
     RELEASE_TO_NIL(editorController);
+    /*
+    for(int i = 0; i < [toolKey count]; i++)
+    {
+        NSLog(@"%d = %@ ",i,[toolKey objectAtIndex:i]);
+    }*/
     NSArray *tools = [self convertToRealToolsKey:toolKey];
     NSDictionary *options = [NSDictionary 
                              dictionaryWithObject:tools 
@@ -188,10 +193,19 @@
     }
 }
 
+-(void)setCustomStyleColor:(id) args{
+    if ([args count] == 2){
+        NSString *key = [TiUtils stringValue:([args objectAtIndex:0])];
+        UIColor *color = [self convertToUIColor:[args objectAtIndex:1]];
+        [AFPhotoEditorCustomization setOptionValue:color forKey:key];
+    }
+}
+
 // Color Customization
 -(void)setBackgroundColor:(id)rgba{
+
     UIColor *color = [self convertToUIColor:rgba];
-    [style setBackgroundColor:color];
+    [AFPhotoEditorCustomization setOptionValue:color forKey:@"editor.backgroundColor"];
 }
 
 -(void)setAccentColor:(id)rgba{
