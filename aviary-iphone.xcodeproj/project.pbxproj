@@ -26,7 +26,6 @@
 		24DD6CFA1134B3F500162E58 /* ComGhkimAviary_iosModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComGhkimAviary_iosModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m */; };
-		467C10A1165E5515008E94D0 /* AFPhotoEditorCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = 467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */; };
 		46C44EB4165D178200C097FC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB3165D178200C097FC /* CoreText.framework */; };
 		46C44EB7165D17C400C097FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB6165D17C400C097FC /* Accelerate.framework */; };
 		46C44EB9165D17C900C097FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EB8165D17C900C097FC /* CoreData.framework */; };
@@ -37,13 +36,14 @@
 		46C44EC3165D17F900C097FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EC2165D17F900C097FC /* QuartzCore.framework */; };
 		46C44EC5165D180100C097FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EC4165D180100C097FC /* UIKit.framework */; };
 		46C44EC7165D180A00C097FC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C44EC6165D180A00C097FC /* OpenGLES.framework */; };
-		46C44ECA165D186800C097FC /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46C44EC9165D186800C097FC /* AviarySDKResources.bundle */; };
-		86FA6F7815A7D33B00D19ABB /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86FA6F7715A7D33B00D19ABB /* libAviarySDK.a */; };
-		86FA6F8015A7D36600D19ABB /* AFPhotoEditorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FA6F7B15A7D36600D19ABB /* AFPhotoEditorContext.h */; };
-		86FA6F8115A7D36600D19ABB /* AFPhotoEditorController.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FA6F7C15A7D36600D19ABB /* AFPhotoEditorController.h */; };
-		86FA6F8215A7D36600D19ABB /* AFPhotoEditorControllerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FA6F7D15A7D36600D19ABB /* AFPhotoEditorControllerOptions.h */; };
-		86FA6F8315A7D36600D19ABB /* AFPhotoEditorSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FA6F7E15A7D36600D19ABB /* AFPhotoEditorSession.h */; };
-		86FA6F8415A7D36600D19ABB /* AFPhotoEditorStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FA6F7F15A7D36600D19ABB /* AFPhotoEditorStyle.h */; };
+		46D9C5B5165F59C700A8ADB7 /* AFPhotoEditorContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5AC165F59C700A8ADB7 /* AFPhotoEditorContext.h */; };
+		46D9C5B6165F59C700A8ADB7 /* AFPhotoEditorController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5AD165F59C700A8ADB7 /* AFPhotoEditorController.h */; };
+		46D9C5B7165F59C700A8ADB7 /* AFPhotoEditorControllerOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5AE165F59C700A8ADB7 /* AFPhotoEditorControllerOptions.h */; };
+		46D9C5B8165F59C700A8ADB7 /* AFPhotoEditorCustomization.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5AF165F59C700A8ADB7 /* AFPhotoEditorCustomization.h */; };
+		46D9C5B9165F59C700A8ADB7 /* AFPhotoEditorSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5B0165F59C700A8ADB7 /* AFPhotoEditorSession.h */; };
+		46D9C5BA165F59C700A8ADB7 /* AFPhotoEditorStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D9C5B1165F59C700A8ADB7 /* AFPhotoEditorStyle.h */; };
+		46D9C5BE165F5ABF00A8ADB7 /* libAviarySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D9C5B2165F59C700A8ADB7 /* libAviarySDK.a */; };
+		46D9C5BF165F5AC300A8ADB7 /* AviarySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46D9C5B4165F59C700A8ADB7 /* AviarySDKResources.bundle */; };
 		AA747D9F0F9514B9006C5449 /* ComGhkimAviary_ios_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComGhkimAviary_ios_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -64,7 +64,6 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComGhkimAviary_iosModuleAssets.h; path = Classes/ComGhkimAviary_iosModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComGhkimAviary_iosModuleAssets.m; path = Classes/ComGhkimAviary_iosModuleAssets.m; sourceTree = "<group>"; };
-		467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
 		46C44EB3165D178200C097FC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		46C44EB6165D17C400C097FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		46C44EB8165D17C900C097FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -75,13 +74,14 @@
 		46C44EC2165D17F900C097FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		46C44EC4165D180100C097FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46C44EC6165D180A00C097FC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		46C44EC9165D186800C097FC /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
-		86FA6F7715A7D33B00D19ABB /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
-		86FA6F7B15A7D36600D19ABB /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
-		86FA6F7C15A7D36600D19ABB /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
-		86FA6F7D15A7D36600D19ABB /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
-		86FA6F7E15A7D36600D19ABB /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
-		86FA6F7F15A7D36600D19ABB /* AFPhotoEditorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorStyle.h; sourceTree = "<group>"; };
+		46D9C5AC165F59C700A8ADB7 /* AFPhotoEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorContext.h; sourceTree = "<group>"; };
+		46D9C5AD165F59C700A8ADB7 /* AFPhotoEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorController.h; sourceTree = "<group>"; };
+		46D9C5AE165F59C700A8ADB7 /* AFPhotoEditorControllerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorControllerOptions.h; sourceTree = "<group>"; };
+		46D9C5AF165F59C700A8ADB7 /* AFPhotoEditorCustomization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorCustomization.h; sourceTree = "<group>"; };
+		46D9C5B0165F59C700A8ADB7 /* AFPhotoEditorSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorSession.h; sourceTree = "<group>"; };
+		46D9C5B1165F59C700A8ADB7 /* AFPhotoEditorStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPhotoEditorStyle.h; sourceTree = "<group>"; };
+		46D9C5B2165F59C700A8ADB7 /* libAviarySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAviarySDK.a; sourceTree = "<group>"; };
+		46D9C5B4165F59C700A8ADB7 /* AviarySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AviarySDKResources.bundle; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComGhkimAviary_ios_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComGhkimAviary_ios_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libComGhkimAviary_ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComGhkimAviary_ios.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D9C5BE165F5ABF00A8ADB7 /* libAviarySDK.a in Frameworks */,
 				46C44EC7165D180A00C097FC /* OpenGLES.framework in Frameworks */,
 				46C44EC5165D180100C097FC /* UIKit.framework in Frameworks */,
 				46C44EC3165D17F900C097FC /* QuartzCore.framework in Frameworks */,
@@ -103,7 +104,6 @@
 				46C44EB7165D17C400C097FC /* Accelerate.framework in Frameworks */,
 				46C44EB4165D178200C097FC /* CoreText.framework in Frameworks */,
 				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
-				86FA6F7815A7D33B00D19ABB /* libAviarySDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 		0867D691FE84028FC02AAC07 /* aviary-iphone */ = {
 			isa = PBXGroup;
 			children = (
-				46C44EC9165D186800C097FC /* AviarySDKResources.bundle */,
+				46D9C5AA165F59C700A8ADB7 /* AviarySDK */,
 				46C44EC6165D180A00C097FC /* OpenGLES.framework */,
 				46C44EC4165D180100C097FC /* UIKit.framework */,
 				46C44EC2165D17F900C097FC /* QuartzCore.framework */,
@@ -151,7 +151,6 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				86FA6F7A15A7D34400D19ABB /* AviarySDK */,
 				24DE9E0F11C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h */,
 				24DE9E1011C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* ComGhkimAviary_iosModule.h */,
@@ -169,18 +168,35 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		86FA6F7A15A7D34400D19ABB /* AviarySDK */ = {
+		46D9C5AA165F59C700A8ADB7 /* AviarySDK */ = {
 			isa = PBXGroup;
 			children = (
-				467C10A0165E5515008E94D0 /* AFPhotoEditorCustomization.h */,
-				86FA6F7B15A7D36600D19ABB /* AFPhotoEditorContext.h */,
-				86FA6F7C15A7D36600D19ABB /* AFPhotoEditorController.h */,
-				86FA6F7D15A7D36600D19ABB /* AFPhotoEditorControllerOptions.h */,
-				86FA6F7E15A7D36600D19ABB /* AFPhotoEditorSession.h */,
-				86FA6F7F15A7D36600D19ABB /* AFPhotoEditorStyle.h */,
-				86FA6F7715A7D33B00D19ABB /* libAviarySDK.a */,
+				46D9C5AB165F59C700A8ADB7 /* Headers */,
+				46D9C5B2165F59C700A8ADB7 /* libAviarySDK.a */,
+				46D9C5B3165F59C700A8ADB7 /* Resources */,
 			);
-			name = AviarySDK;
+			path = AviarySDK;
+			sourceTree = "<group>";
+		};
+		46D9C5AB165F59C700A8ADB7 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				46D9C5AC165F59C700A8ADB7 /* AFPhotoEditorContext.h */,
+				46D9C5AD165F59C700A8ADB7 /* AFPhotoEditorController.h */,
+				46D9C5AE165F59C700A8ADB7 /* AFPhotoEditorControllerOptions.h */,
+				46D9C5AF165F59C700A8ADB7 /* AFPhotoEditorCustomization.h */,
+				46D9C5B0165F59C700A8ADB7 /* AFPhotoEditorSession.h */,
+				46D9C5B1165F59C700A8ADB7 /* AFPhotoEditorStyle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		46D9C5B3165F59C700A8ADB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46D9C5B4165F59C700A8ADB7 /* AviarySDKResources.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,12 +209,12 @@
 				AA747D9F0F9514B9006C5449 /* ComGhkimAviary_ios_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* ComGhkimAviary_iosModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* ComGhkimAviary_iosModuleAssets.h in Headers */,
-				86FA6F8015A7D36600D19ABB /* AFPhotoEditorContext.h in Headers */,
-				86FA6F8115A7D36600D19ABB /* AFPhotoEditorController.h in Headers */,
-				86FA6F8215A7D36600D19ABB /* AFPhotoEditorControllerOptions.h in Headers */,
-				86FA6F8315A7D36600D19ABB /* AFPhotoEditorSession.h in Headers */,
-				86FA6F8415A7D36600D19ABB /* AFPhotoEditorStyle.h in Headers */,
-				467C10A1165E5515008E94D0 /* AFPhotoEditorCustomization.h in Headers */,
+				46D9C5B5165F59C700A8ADB7 /* AFPhotoEditorContext.h in Headers */,
+				46D9C5B6165F59C700A8ADB7 /* AFPhotoEditorController.h in Headers */,
+				46D9C5B7165F59C700A8ADB7 /* AFPhotoEditorControllerOptions.h in Headers */,
+				46D9C5B8165F59C700A8ADB7 /* AFPhotoEditorCustomization.h in Headers */,
+				46D9C5B9165F59C700A8ADB7 /* AFPhotoEditorSession.h in Headers */,
+				46D9C5BA165F59C700A8ADB7 /* AFPhotoEditorStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C44ECA165D186800C097FC /* AviarySDKResources.bundle in Resources */,
+				46D9C5BF165F5AC300A8ADB7 /* AviarySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +329,7 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/ComGhkimAviary_ios.dst;
@@ -336,6 +353,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/AviarySDK\"",
 				);
 				OTHER_CFLAGS = (
 					"-DDEBUG",
@@ -368,6 +386,7 @@
 					armv7,
 				);
 				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DSTROOT = /tmp/ComGhkimAviary_ios.dst;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
@@ -390,6 +409,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/AviarySDK\"",
 				);
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = (

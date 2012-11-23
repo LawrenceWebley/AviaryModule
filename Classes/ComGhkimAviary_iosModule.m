@@ -148,29 +148,6 @@
 }
 
 
-
-// Image Processing to High-Resolution.
-// params example1 = [targetImage](Blob), example2 = [targetImage(Blob), context size(Hash)]
--(void)newImageResolutionEditor:(id)params
-{
-    UIImage *source = [self convertToUIImage:[params objectAtIndex:0]];
-    [self newEditorController:source setDelegate:nil];
-    __block AFPhotoEditorSession *session = [editorController session];
-      
-    AFPhotoEditorContext *context;    
-    if ([params count] == 1){
-        context = [session createContext];
-    }else if ([params count] == 2){
-        context = [session createContextWithSize:[self convertToCGSize:(NSDictionary *)[params objectAtIndex:1]]];
-    }
-    
-    [context renderInputImage:source completion:^(UIImage *result) {
-        // `result` will be nil if the session is canceled, or non-nil if the session was closed successfully and rendering completed   
-        [self fireEvent:@"avResolutionFinished" withObject:[self convertResultDic:result]];
-        [editorController dismissModalViewControllerAnimated:YES];
-    }];
-}
-
 -(id)getAviarySDKVersion:(id)param
 {
     return [AFPhotoEditorController versionString];
